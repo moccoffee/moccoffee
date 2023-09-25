@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mộc Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css"> <!-- fontawesome -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+    
+<!--
+
+Tooplate 2126 Antique Cafe
+
+https://www.tooplate.com/view/2126-antique-cafe
+
+-->
+</head>
+<body>    
+    <!-- Intro -->
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/background1.jpg">
+        <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-4 mx-4"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">Giới Thiệu</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#menu" class="tm-text-gold py-1 md:py-3 px-4">Menu</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#about" class="tm-text-gold py-1 md:py-3 px-4">Thanh toán</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#contact" class="tm-text-gold py-1 md:py-3 px-4">Liên hệ</a></li>
+                </ul>
+            </div>            
+        </nav>
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">MỘC COFFEE</h1>
+                    <p class="tm-text-gold tm-text-2xl">Cà phê "một tình yêu, một thói quen"</p>
+                </div>    
+                <div class="bg-black bg-opacity-70 p-10 mb-5">
+                    <p class="text-white leading-8 text-sm font-light" style="text-align: center;">Nơi thưởng thức cà phê nguyên chất, đậm đà hương vị Việt </p>
+                    <p class="text-white leading-8 text-sm font-light" style="text-align: center;">Không gian thư giãn, yên bình cho những tâm hồn đồng điệu </p>
+                    <p class="text-white leading-8 text-sm font-light" style="text-align: center;">Nơi gặp gỡ, giao lưu và chia sẻ những ý tưởng mới </p>
+
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a href="#menu" class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                            <i class="fas fa-coffee mr-3"></i>
+                            <span>Menu</span>                        
+                        </a>
+                    </div>                    
+                </div>                
+            </div>
+        </div>        
+    </div>
+    <!-- Cafe Menu -->
+    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/background2.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">MENU</h2>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+
+                    <! -- Cà phê -->
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/cf.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Cà Phê</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">
+                                <table>
+                                    <tr>
+                                      <td>Cà phê đen</td>
+                                      <td style="padding-left: 10%;">22.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Cà phê sữa</td>
+                                      <td style="padding-left: 10%;">24.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Bạc xỉu</td>
+                                      <td style="padding-left: 10%;">22.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    <! -- Trà -->
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/tea.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Trà</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">
+                                <table>
+                                    <tr>
+                                      <td>Lipton</td>
+                                      <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Trà đào</td>
+                                      <td style="padding-left: 10%;">24.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Trà vải</td>
+                                      <td style="padding-left: 10%;">24.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    <! -- Sữa -->
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/milk.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Các món sữa</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">
+                                <table>
+                                    <tr>
+                                      <td>Sữa tươi</td>
+                                      <td style="padding-left: 10%;">22.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Sữa tươi CF</td>
+                                      <td style="padding-left: 10%;">24.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Chanh sữa</td>
+                                      <td style="padding-left: 10%;">22.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cam sữa</td>
+                                        <td style="padding-left: 10%;">24.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lipton sữa</td>
+                                        <td style="padding-left: 10%;">22.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cacao sữa</td>
+                                        <td style="padding-left: 10%;">24.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    <! -- Cam chanh -->
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/lemon.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Cam - Chanh</h3>
+                            <div class="text-white text-md sm:text-lg font-light">
+                                <table>
+                                    <tr>
+                                        <td>Cam vắt</td>
+                                        <td style="padding-left: 10%;">22.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Chanh(Đ/N)</td>
+                                      <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Chanh xay</td>
+                                      <td style="padding-left: 10%;">26.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chanh muối</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chanh dây</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    <! -- Soda -->
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/soda.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Soda</h3>
+                            <div class="text-white text-md sm:text-lg font-light">
+                                <table>
+                                    <tr>
+                                        <td>Blue ocean</td>
+                                        <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Sunrise</td>
+                                      <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Violeso</td>
+                                      <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lemon</td>
+                                        <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Passion fruit</td>
+                                        <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    <! -- mojito -->
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/mojito.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Mojito</h3>
+                            <div class="text-white text-md sm:text-lg font-light">
+                                <table>
+                                    <tr>
+                                        <td>Trawberry</td>
+                                        <td style="padding-left: 10%;">30.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Mango</td>
+                                      <td style="padding-left: 10%;">30.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Lychee</td>
+                                      <td style="padding-left: 10%;">30.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    <! -- Yagurt -->
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/yo.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Yogurt</h3>
+                            <div class="text-white text-md sm:text-lg font-light">
+                                <table>
+                                    <tr>
+                                        <td>YO đá</td>
+                                        <td style="padding-left: 10%;">22.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>YÔ xoài</td>
+                                      <td style="padding-left: 10%;">26.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>YO dâu</td>
+                                      <td style="padding-left: 10%;">26.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>YO trà xanh</td>
+                                        <td style="padding-left: 10%;">30.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>YO v.quốc</td>
+                                        <td style="padding-left: 10%;">26.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Việt quốc</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>YO bồn tử</td>
+                                        <td style="padding-left: 10%;">26.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Phúc bồn tử</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>YO CD</td>
+                                        <td style="padding-left: 10%;">26.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Chanh dây tươi</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>YO ND1</td>
+                                        <td style="padding-left: 10%;">28.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Xoài + việt quốc</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>YO ND2</td>
+                                        <td style="padding-left: 10%;">28.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Xoài + phúc bồn tử</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    
+                </div>
+
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+
+                    <! -- Các món đá xay -->
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Các món đá xay</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">
+                                <table>
+                                    <tr>
+                                        <td>Fappucino</td>
+                                        <td style="padding-left: 10%;">26.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Cà phê + sữa</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mocha</td>
+                                        <td style="padding-left: 10%;">30.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Cà phê + chocolate + sữa</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chocolate</td>
+                                        <td style="padding-left: 10%;">28.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Chocolate + sữa</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Latta</td>
+                                        <td style="padding-left: 10%;">26.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Cà phê + sữa</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cookie</td>
+                                        <td style="padding-left: 10%;">26.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Oreon xay với sữa</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cookie CF</td>
+                                        <td style="padding-left: 10%;">28.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Oreon xay với cà phê</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cookie CHO</td>
+                                        <td style="padding-left: 10%;">30.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Oreon xay với chocolate</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cookie GRE</td>
+                                        <td style="padding-left: 10%;">30.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Oreon xay với trà xanh</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Matcha milk</td>
+                                        <td style="padding-left: 10%;">28.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">Trà xanh xay</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>
+                        <img src="img/Cookie.jpg" alt="Image" class="rounded-md">                   
+                    </div>
+
+
+                    <! -- Sinh tố -->
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Sinh tố</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">
+                                <table>
+                                    <tr>
+                                        <td>Dâu</td>
+                                        <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Xoài</td>
+                                        <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bơ</td>
+                                        <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dừa</td>
+                                        <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mãng cầu</td>
+                                        <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sapoche</td>
+                                        <td style="padding-left: 10%;">27.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trái cây</td>
+                                        <td style="padding-left: 10%;">30.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left: 5%; font-size: 8px; color: aqua;">dầm - tô</td>
+                                        <td style="padding-left: 10%; font-size: 8px; color: aqua;">-</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>
+                        <img src="img/smoothi.jpg" alt="Image" class="rounded-md">                   
+                    </div>
+
+
+                    <! -- Nước ép -->
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Nước ép</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">
+                                <table>
+                                    <tr>
+                                        <td>Dưa hấu</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dâu</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cóc</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ổi</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Táo</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lê</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lựu</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cà rốt</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cà chua</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cả cải</td>
+                                        <td style="padding-left: 10%;">25.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dừa tươi</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>
+                        <img src="img/juice.jpg" alt="Image" class="rounded-md">                   
+                    </div>
+
+                    <! -- Nước ngọt -->
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Nước ngọt</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">
+                                <table>
+                                    <tr>
+                                        <td>Sting</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Warrior nho</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Coca</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7Up</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bò cụng </td>
+                                        <td style="padding-left: 10%;">22.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ô long</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Boncha</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>247</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Number 1</td>
+                                        <td style="padding-left: 10%;">20.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nước suối</td>
+                                        <td style="padding-left: 10%;">15.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>
+                        <img src="img/sting.jpg" alt="Image" class="rounded-md">                   
+                    </div>
+                </div>
+                
+            </div>
+        </div>        
+    </div>
+    <div id="about" class="parallax-window relative" data-parallax="scroll" data-image-src="img/background3.jpg">
+        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-green">Kết nối Wifi</h2>
+                    <p class="mb-6 text-base leading-8">
+                        <a href="http://[192.168.0.1]:[80]/[MOC COFFEE]?password=[79797979]">
+                            <img src="img/wifi.png" alt="kết nối wifi">
+                          </a>
+                          <br>
+                          <a href="http://[192.168.0.1]:[80]/[MOC COFFEE]?password=[79797979]"><p style="text-align: center;">quét QR hoặc nhấn để kết nối</p></a>
+                          <p style="text-align: center;">Password: 79797979</p>  
+                    </p>
+                </div>
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-green">Phương thúc thanh toán</h2>
+                    <p class="mb-6 text-base leading-8">
+                        <a href="https://me.momo.vn/AEI9TOtzIRFAT7tMC3uAin">
+                            <img src="img/momo.jpg" alt="Đi tới tài khoản MoMo">
+                          </a>
+                          <br>
+                          <a href="https://me.momo.vn/AEI9TOtzIRFAT7tMC3uAin"><p style="text-align: center;">quét QR hoặc nhấn để thanh toán</p></a>  
+                    </p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#contact" class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
+                    <i class="far fa-comments mr-4"></i>
+                    Liên hệ
+                </a>
+            </div>  
+        </div>        
+    </div>    
+
+    
+    <div id="contact" class="parallax-window relative" data-parallax="scroll" data-image-src="img/contact.jpg">
+        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-green">Thông tin liên hệ</h2>
+                    <p class="mb-6 text-lg leading-8">
+                        <div> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d557.984027206707!2d106.64967581250988!3d10.746610579405383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e604d1c13c5%3A0xf79d42120fa194ad!2zNzZBIMSQLkNhbyBWxINuIEzhuqd1LCBQaMaw4budbmcgMSwgUXXhuq1uIDYsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1695287443067!5m2!1svi!2s" style="width: 100%; border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+                    </p>
+                    <p class="mb-10 text-lg">
+                        <b>Địa chỉ:</b> <a href="https://maps.app.goo.gl/SRkdyzTSXgEKyQtN9"> 76A, Cao Văn Lầu, Phường 1, Quận 6, TPHCM </a>
+                        <br>
+                        <b>Số điện thoại:</b> <a href="tel:0938838889">0938.838.889</a>
+                        <br>
+                        <b>Email:</b> <a href="mailto:ngoctram@r24b.onmicrosoft.com">ngoctram@r24b.onmicrosoft.com</a>                         
+                    </p>                 
+            </div>
+            <footer class="absolute bottom-0 left-0 w-full">
+                <div class="text-white container mx-auto tm-container p-8 text-lg flex flex-col md:flex-row justify-between">
+                    <span>Copyright &copy chồng bà chủ.</span>
+                </div>                
+            </footer>
+        </div>        
+    </div>    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script>
+
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
+
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
+
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
